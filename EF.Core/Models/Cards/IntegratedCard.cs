@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EF.Core.Models.Cards
+﻿namespace EF.Core.Models.Cards
 {
     public class IntegratedCard : DiscountCard
     {
@@ -12,6 +6,7 @@ namespace EF.Core.Models.Cards
 
         public override decimal Discount => 0.15m;
 
-        public override decimal GetAmount => 25000;
+        public override decimal? GetAmount => 25000;
+
     }
 }

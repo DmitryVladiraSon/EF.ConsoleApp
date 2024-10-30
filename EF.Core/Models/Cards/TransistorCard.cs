@@ -6,6 +6,6 @@
 
         public override decimal Discount => 0.10m;
 
-        public override decimal GetAmount => 12500;
+        public override decimal? GetAmount => 12500;
     }
 }

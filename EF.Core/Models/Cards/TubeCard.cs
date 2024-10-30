@@ -11,6 +11,6 @@ namespace EF.Core.Models.Cards
         public override string Name => "Tube Card";
         public override decimal Discount => 0.05m;
 
-        public override decimal GetAmount => 5000;
+        public override decimal? GetAmount => 5000;
     }
 }

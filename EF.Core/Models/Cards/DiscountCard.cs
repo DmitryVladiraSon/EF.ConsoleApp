@@ -4,7 +4,7 @@
     {
         public abstract string Name { get;  }
         public abstract decimal Discount { get; }
-        public abstract decimal GetAmount { get; }
+        public abstract decimal? GetAmount { get; }
     }
 }
 //solid
